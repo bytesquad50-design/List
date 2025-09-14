@@ -1,0 +1,26 @@
+list_1=[21,540,45,12]
+list_2=[564.8,22.8,66.7]
+list_3=['hello ', 'dilip']
+print("max=",max(list_1))
+print("min=",min(list_2))
+print("max=",max(list_3))
+list_4=['dhivagar','dhilipan','hello']
+print('max=',max(list_4))
+list_4.insert(2,'balaji')
+print(list_4)
+#pop and remove same both 
+list_1.insert(-5,66)
+print(list_1)
+list_1.extend(list_2)
+list_5 = list_1
+print(list_1)
+print(list_5)
+#list literal []
+c={'id':45,'name':'dilip'}
+dict_to_list=list(c)
+print(c)
+a=[1,2,3,4,5]
+b=[x**2 for x in a ]
+print(b)
+c=["even" if i %2==0 else "odd" for i in a]
+print(c)
